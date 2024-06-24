@@ -9,13 +9,11 @@
 //       SHOULD ONLY CONSIST OF PREPROCESSOR DIRECTIVES
 // -----------------------------------------------------
 
-// This header may be included by other board headers as "boards/pico.h"
-
 #ifndef _BOARDS_PICO_H
 #define _BOARDS_PICO_H
 
 // For board detection
-#define RASPBERRYPI_NEO6502
+#define OLIMEX_RP2040PC
 
 // --- UART ---
 #ifndef PICO_DEFAULT_UART
